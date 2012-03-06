@@ -2,4 +2,7 @@
 
 /* Background: Plain */
 
-body#page { background: #DCE6E2 url(../../images/background/plain/page.jpg) 50% 0 repeat; }
+body#page { background: #FFFFFF url(../../images/background/plain/page1.jpg) 50% 0; 
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: left top; }
