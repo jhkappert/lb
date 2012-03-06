@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+.wk-gallery-wall > img,
+.wk-gallery-wall > div,
+.wk-gallery-wall > a { float: right; }

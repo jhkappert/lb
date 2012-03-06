@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+        <setting name="enable" label="Enable" type="radio" default="1" description="If disabled the media player JavaScript will not be loaded.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="selector" label="Selector" type="text" default="video,audio" description="You can customize the default selector to activate the media player on other media elements." />
+    </settings>
+</widget>

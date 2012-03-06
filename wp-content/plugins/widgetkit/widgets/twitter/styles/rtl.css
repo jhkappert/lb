@@ -1,0 +1,42 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+.wk-twitter .image { float: right; }
+
+
+/* List Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-twitter-list .image { margin: 3px 0 0 10px; }
+
+
+/* Single Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-twitter-single.image {
+	padding-left: 0;
+	padding-right: 70px;
+	background-position: 100% 3px;
+}
+
+
+/* Bubbles Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-twitter-bubbles .content:after {
+	left: auto;
+	right: 18px;
+}
+
+.wk-twitter-bubbles .image {
+	margin-right: 0;
+	margin-left: 10px;
+	float: right;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="tabs_bar" label="Tabs Bar">
+	<fields>
+		<field type="title" name="title" label="Title" description="" />
+		<field type="html" name="content" label="Content" description="" />
+	</fields>
+	<settings>
+		<setting name="navigation" label="Navigation" type="list" default="left">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</setting>
+		<setting name="animated" label="Effect" type="list" default="randomSimple">
+			<option value="fade">Fade</option>
+			<option value="scroll">Scroll</option>
+		</setting>
+	</settings>
+</style>

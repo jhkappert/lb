@@ -1,0 +1,68 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+.wk-slideshow-tabsbar .nav,
+.wk-slideshow-tabsbar .nav li,
+.wk-slideshow-tabsbar .nav span { float: right; }
+
+.wk-slideshow-tabsbar .nav li {
+	border-right: none;
+	border-left: 1px solid #ddd;
+}
+
+.wk-slideshow-tabsbar .nav span {
+	margin-right: -2px;
+	padding-right: 17px;
+	border-right: none;
+	border-left: 1px solid #fff;
+}
+
+
+/* Alignment: Navigation
+---------------------------------------------------------------------------------------------------*/
+
+/* Left */
+.wk-slideshow-tabsbar .nav-left li:hover:first-child,
+.wk-slideshow-tabsbar .nav-left li:active:first-child,
+.wk-slideshow-tabsbar .nav-left li.active:first-child {
+	border-top-left-radius: 0;
+	border-top-right-radius: 5px;
+}
+
+/* Center */
+.wk-slideshow-tabsbar .nav-center .nav {
+	left: auto;
+	right: 50%;
+}
+
+.wk-slideshow-tabsbar .nav-center .nav li {
+	left: auto;
+	right: -50%;
+}
+
+.wk-slideshow-tabsbar .nav-center .nav li:first-child { border-right: 1px solid #ddd; }
+.wk-slideshow-tabsbar .nav-center .nav li:first-child span { border-right: 1px solid #fff; }
+
+/* Right */
+.wk-slideshow-tabsbar .nav-right .nav { float: left; }
+
+.wk-slideshow-tabsbar .nav-right li {
+	border-left: none;
+	border-right: 1px solid #ddd;
+}
+
+.wk-slideshow-tabsbar .nav-right span {
+	border-left: none;
+	border-right: 1px solid #fff;
+}
+
+.wk-slideshow-tabsbar .nav-right li:hover:last-child,
+.wk-slideshow-tabsbar .nav-right li:active:last-child,
+.wk-slideshow-tabsbar .nav-right li.active:last-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 5px;
+}
+

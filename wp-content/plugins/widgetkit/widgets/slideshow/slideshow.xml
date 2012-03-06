@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+		<setting name="style" label="Style" type="style" path="slideshow:styles" default="default" />
+        <setting name="autoplay" label="Autoplay" type="radio" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="interval" label="Autoplay Interval (ms)" type="text" default="5000" />
+        <setting name="width" label="Width" type="text" default="auto" />
+        <setting name="height" label="Height" type="text" default="auto" />
+        <setting name="duration" label="Effect Duration (ms)" type="text" default="500" />
+        <setting name="index" label="Start Index" type="text" default="0" />
+        <setting name="order" label="Order" type="list" default="default">
+            <option value="default">Default</option>
+            <option value="random">Random</option>
+        </setting>
+    </settings>
+</widget>

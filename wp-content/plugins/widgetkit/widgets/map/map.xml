@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+		<setting name="style" label="Style" type="style" path="map:styles" default="default" />
+		<setting name="width" label="Width" type="text" default="auto" />
+		<setting name="height" label="Height" type="text" default="300" />
+		<setting name="mapTypeId" label="Map Type" type="list" default="0">
+			<option value="roadmap">Roadmap</option>
+			<option value="satellite">Satellite</option>
+			<option value="hybrid">Hybrid</option>
+			<option value="terrain">Terrain</option>
+		</setting>
+        <setting name="zoom" label="Zoom Level (0 to 19)" type="text" default="13" />
+		<setting name="mapCtrl" label="Map Controls" type="list" default="1">
+			<option value="0">Hide</option>
+			<option value="1">Default</option>
+			<option value="2">Small</option>
+		</setting>
+		<setting name="typeCtrl" label="Type Controls" type="radio" default="0">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+		<setting name="popup" label="Center Marker" type="list" default="1">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+			<option value="2">Opened Popup</option>
+		</setting>
+		<setting name="directions" label="Directions" type="radio" default="0">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</setting>
+		<setting name="styler_invert_lightness" label="Invert Lightness" type="radio" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="styler_hue" label="Hue (e.g. #ff0000)" type="text" default="" />
+        <setting name="styler_saturation" label="Saturation (-100 to 100)" type="text" default="0" />
+        <setting name="styler_lightness" label="Lightness (-100 to 100)" type="text" default="0" />
+        <setting name="styler_gamma" label="Gamma (0 to 10)" type="text" default="0" />
+    </settings>
+</widget>

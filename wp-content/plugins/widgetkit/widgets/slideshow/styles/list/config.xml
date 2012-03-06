@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="list" label="List">
+	<fields>
+		<field type="title" name="title" label="Title" description="" />
+		<field type="html" name="content" label="Content" description="" />
+	</fields>
+	<settings>
+		<setting name="navigation" label="Navigation Width" type="list" default="200">
+			<option value="100">100px</option>
+			<option value="150">150px</option>
+			<option value="200">200px</option>
+			<option value="250">250px</option>
+		</setting>
+		<setting name="animated" label="Effect" type="list" default="randomSimple">
+			<option value="fade">Fade</option>
+			<option value="scroll">Scroll</option>
+		</setting>
+	</settings>
+</style>

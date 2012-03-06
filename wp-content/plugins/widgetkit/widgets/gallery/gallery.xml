@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+		<setting name="style" label="Style" type="style" path="gallery:styles" default="default" />
+        <setting name="width" label="Width" type="text" default="auto" />
+        <setting name="height" label="Height" type="text" default="auto" />		
+    </settings>
+</widget>

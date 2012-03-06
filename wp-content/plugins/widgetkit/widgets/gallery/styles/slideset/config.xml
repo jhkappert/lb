@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="default" label="Default">
+	<fields>
+		<field type="title" name="title" label="Title" description="" />
+		<field type="text" name="set" label="Set Name" description="" />
+		<field type="html" name="content" label="Content" description="" />
+	</fields>
+	<settings>
+		<setting name="effect" label="Effect" type="list" default="slide">
+            <option value="slide">Slide</option>
+            <option value="zoom">Zoom</option>
+            <option value="deck">Deck</option>
+            <option value="drops">Drops</option>
+        </setting>
+		<setting name="autoplay" label="Autoplay" type="radio" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="interval" label="Autoplay Interval (ms)" type="text" default="5000" />
+		<setting name="items_per_set" label="Items Per Set" type="list" default="3">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</setting>
+		<setting name="navigation" label="Navigation" type="radio" default="1">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+		<setting name="buttons" label="Buttons" type="radio" default="0">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+		<setting name="title" label="Title" type="radio" default="1">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+        <setting name="duration" label="Effect Duration (ms)" type="text" default="300" />
+		<setting name="lightbox" label="Lightbox" type="radio" default="0">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</setting>
+	</settings>
+</style>

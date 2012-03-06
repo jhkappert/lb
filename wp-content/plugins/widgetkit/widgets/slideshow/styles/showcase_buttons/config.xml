@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="showcase_buttons" label="Showcase Buttons">
+	<fields>
+		<field type="title" name="title" label="Title" description="" />
+		<field type="html" name="content" label="Content" description="" />
+		<field type="textarea" name="navigation" label="Navigation" description="" class="small" />
+	</fields>
+	<settings>
+		<setting name="buttons" label="Buttons" type="radio" default="1">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+		<setting name="slices" label="Slices" type="text" default="20" />
+		<setting name="animated" label="Effect" type="list" default="randomSimple">
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+			<option value="fade">Fade</option>
+			<option value="scrollLeft">ScrollLeft</option>
+			<option value="scrollRight">ScrollRight</option>
+			<option value="scroll">Scroll</option>
+			<option value="sliceUp">SliceUp</option>
+			<option value="sliceDown">SliceDown</option>
+			<option value="sliceUpDown">SliceUpDown</option>
+			<option value="swipe">Swipe</option>
+			<option value="fold">Fold</option>
+			<option value="puzzle">Puzzle</option>
+			<option value="boxes">Boxes</option>
+			<option value="boxesRtl">BoxesRtl</option>
+			<option value="randomSimple">RandomSimple</option>
+			<option value="randomFx">RandomFx</option>
+		</setting>
+		<setting name="caption_animation_duration" label="Caption Animation Duration" type="text" default="500" />
+		<setting name="effect" label="Slideset Effect" type="list" default="slide">
+			<option value="slide">Slide</option>
+			<option value="zoom">Zoom</option>
+			<option value="deck">Deck</option>
+			<option value="drops">Drops</option>
+        </setting>
+		<setting name="slideset_buttons" label="Slideset Buttons" type="radio" default="1">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</setting>
+		<setting name="items_per_set" label="Items Per Set" type="text" default="3" />
+        <setting name="slideset_effect_duration" label="Slideset Effect Duration (ms)" type="text" default="300" />
+	</settings>
+</style>

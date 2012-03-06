@@ -1,0 +1,97 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Widgetkit Slideshow: Tabs Style Balance
+ */
+
+.wk-slideshow-tabsbar-balance {
+	padding-bottom: 4px;
+	border: 1px solid #d2d2d2;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom-color: #9d9d9d;
+	border-bottom-color: rgba(0,0,0,0.25);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: #d2d2d2 url(images/bg.png) 0 100% repeat-x;
+	background-clip: padding-box;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.wk-slideshow-tabsbar-balance > div {
+	border-radius: 3px;
+	background: #f7f7f9;
+	box-shadow: inset 0 0 0 1px #fff;
+}
+
+
+/* Navigation
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-tabsbar-balance .nav-container {
+	border-bottom: 1px solid #ddd;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	box-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.wk-slideshow-tabsbar-balance .nav,
+.wk-slideshow-tabsbar-balance .nav li,
+.wk-slideshow-tabsbar-balance .nav span { float: left; }
+
+.wk-slideshow-tabsbar-balance .nav li {
+	padding-left: 3px;
+	background: url(images/li.png) 0 100% no-repeat;
+}
+
+.wk-slideshow-tabsbar-balance .nav li:first-child { background: none; }
+
+.wk-slideshow-tabsbar-balance .nav span {
+	margin-bottom: -10px;
+	padding: 13px 24px 28px 24px;
+	overflow: hidden;
+	background: url(images/tab.png) 50% 100% no-repeat;
+}
+
+.wk-slideshow-tabsbar-balance .nav li:hover span {
+	background-image: url(images/tab_hover.png);
+	color: #555;
+}
+.wk-slideshow-tabsbar-balance .nav li:active:not([class*="active"]) span { background-image: url(images/tab_active.png); }
+.wk-slideshow-tabsbar-balance .nav li.active span {
+	background-image: url(images/tab_current.png);
+	color: #444;
+}
+
+
+/* Content
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-tabsbar-balance .slides > li > article { padding: 15px; }
+
+
+/* Alignment: Navigation
+---------------------------------------------------------------------------------------------------*/
+
+/* Left */
+.wk-slideshow-tabsbar-balance .nav-left li:hover:first-child,
+.wk-slideshow-tabsbar-balance .nav-left li:active:first-child,
+.wk-slideshow-tabsbar-balance .nav-left li.active:first-child { border-top-left-radius: 4px; }
+
+/* Center */
+.wk-slideshow-tabsbar-balance .nav-center .nav {
+	position: relative;
+	left: 50%;
+}
+
+.wk-slideshow-tabsbar-balance .nav-center .nav li {
+	position: relative;
+	left: -50%;
+}
+
+/* Right */
+.wk-slideshow-tabsbar-balance .nav-right .nav { float: right; }
+
+.wk-slideshow-tabsbar-balance .nav-right li:hover:last-child,
+.wk-slideshow-tabsbar-balance .nav-right li:active:last-child,
+.wk-slideshow-tabsbar-balance .nav-right li.active:last-child { border-top-right-radius: 4px; }

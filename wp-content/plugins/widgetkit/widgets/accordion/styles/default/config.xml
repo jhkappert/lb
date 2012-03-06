@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="default" label="Default">
+	<fields>
+		<field type="title" name="title" label="Title" description="" />
+		<field type="html" name="content" label="Content" description="" />
+	</fields>
+	<settings>
+		<setting name="width" label="Width" type="text" default="auto" />
+		<setting name="order" label="Order" type="list" default="default">
+            <option value="default">Default</option>
+            <option value="random">Random</option>
+        </setting>
+    </settings>
+</style>

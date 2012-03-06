@@ -1,0 +1,49 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+.wk-slideshow-tabsbar-balance .nav,
+.wk-slideshow-tabsbar-balance .nav li,
+.wk-slideshow-tabsbar-balance .nav span { float: right; }
+
+.wk-slideshow-tabsbar-balance .nav li {
+	padding-right: 3px;
+	padding-left: 0;
+	background-position: 100% 100%;
+}
+
+
+/* Alignment: Navigation
+---------------------------------------------------------------------------------------------------*/
+
+/* Left */
+.wk-slideshow-tabsbar-balance .nav-left li:hover:first-child,
+.wk-slideshow-tabsbar-balance .nav-left li:active:first-child,
+.wk-slideshow-tabsbar-balance .nav-left li.active:first-child {
+	border-top-left-radius: 0;
+	border-top-right-radius: 4px;
+}
+
+/* Center */
+.wk-slideshow-tabsbar-balance .nav-center .nav {
+	left: auto;
+	right: 50%;
+}
+
+.wk-slideshow-tabsbar-balance .nav-center .nav li {
+	left: auto;
+	right: -50%;
+}
+
+/* Right */
+.wk-slideshow-tabsbar-balance .nav-right .nav { float: left; }
+
+.wk-slideshow-tabsbar-balance .nav-right li:hover:last-child,
+.wk-slideshow-tabsbar-balance .nav-right li:active:last-child,
+.wk-slideshow-tabsbar-balance .nav-right li.active:last-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 4px;
+}
+

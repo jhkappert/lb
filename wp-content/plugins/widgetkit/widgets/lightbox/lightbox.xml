@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+        <setting name="enable" label="Enable" type="radio" default="1" description="If disabled the lightbox JavaScript will not be loaded.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="title_position" label="Title Position" type="list" default="float" description="You can set the position where the title is displayed.">
+			<option value="float">Float</option>
+			<option value="outside">Outside</option>
+			<option value="inside">Inside</option>
+			<option value="over">Over</option>
+		</setting>
+        <setting name="transition_in" label="Transition In" type="list" default="fade" description="You can set the transition used when the lightbox is shown.">
+			<option value="fade">Fade</option>
+			<option value="elastic">Elastic</option>
+			<option value="none">None</option>
+		</setting>
+        <setting name="transition_out" label="Transition Out" type="list" default="fade" description="You can set the transition used when the lightbox hides.">
+			<option value="fade">Fade</option>
+			<option value="elastic">Elastic</option>
+			<option value="none">None</option>
+		</setting>
+        <setting name="overlay_show" label="Show Overlay" type="radio" default="1" description="Enable/Disable the overlay to create a modal lightbox.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="overlay_color" label="Overlay Color" type="text" default="#777" description="Color of the lightbox overlay. Use a hex color value." />
+        <setting name="overlay_opacity" label="Overlay Opacity" type="text" default="0.7" description="Opacity of the lightbox overlay. Pick a value between 0.1 and 1.0" />
+        <setting name="selector" label="Selector" type="text" default="a[data-lightbox]" description="You can customize the default selector to activate the lightbox on other link elements." />
+    </settings>
+</widget>

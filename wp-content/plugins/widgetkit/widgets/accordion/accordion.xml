@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+		<setting name="style" label="Style" type="style" path="accordion:styles" default="default" />
+		<setting name="collapseall" label="Auto Collapse" type="radio" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+		<setting name="matchheight" label="Match Content Height" type="radio" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+		<setting name="index" label="Start Index" type="text" default="0" />
+        <setting name="duration" label="Animation Speed (ms)" type="text" default="500" />
+    </settings>
+</widget>

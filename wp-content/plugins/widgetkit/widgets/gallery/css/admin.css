@@ -1,0 +1,30 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Options */
+
+#widgetkit div.file {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#widgetkit div.file:first-child { margin-top: 0; }
+
+#widgetkit div.file > .image {
+	width: 25px;
+	height: 20px;
+	margin: 0px 15px 0px 0px;
+	float: left;
+	overflow: hidden;
+}
+
+#widgetkit div.file > .filename {
+	width: 200px;
+	line-height: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+#widgetkit div.file > input {
+	width: 30%;
+	margin-left: 20px;
+}

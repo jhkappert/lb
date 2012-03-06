@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+		<setting name="style" label="Style" type="style" path="slideset:styles" default="default" />
+		<setting name="width" label="Width" type="text" default="auto" />
+        <setting name="height" label="Height" type="text" default="auto" />
+        <setting name="effect" label="Effect" type="list" default="slide">
+            <option value="slide">Slide</option>
+            <option value="zoom">Zoom</option>
+            <option value="deck">Deck</option>
+            <option value="drops">Drops</option>
+        </setting>
+        <setting name="index" label="Start Index" type="text" default="0" />
+        <setting name="autoplay" label="Autoplay" type="radio" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="interval" label="Autoplay Interval (ms)" type="text" default="5000" />
+    </settings>
+</widget>

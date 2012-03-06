@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <settings>
+        <setting name="enable" label="Enable" type="radio" default="1" description="If disabled the spotlight JavaScript will not be loaded.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</setting>
+        <setting name="duration" label="Animation Speed (ms)" type="text" default="300" />
+        <setting name="selector" label="Selector" type="text" default="[data-spotlight]" description="You can customize the default selector to activate the spotlight on other elements." />
+    </settings>
+</widget>

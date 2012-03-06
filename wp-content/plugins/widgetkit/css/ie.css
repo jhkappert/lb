@@ -1,0 +1,100 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * IE Style Sheet - Only loaded by Internet Explorer 7 and 8
+ */
+
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .grid-block { zoom: 1; }
+.wk-ie7 .width20 { width: 19.97%; }
+.wk-ie7 .width25 { width: 24.97%; }
+.wk-ie7 .width33 { width: 33.31%; }
+.wk-ie7 .width50 { width: 49.97%; }
+
+
+/* Spotlight
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie .spotlight .overlay-default,
+.wk-ie .spotlight .overlay { filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#77000000', endColorstr='#77000000'); }
+
+.wk-ie .spotlight .overlay-default {
+	background-image: url(../widgets/spotlight/images/magnifier.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* Twitter: Bubbles Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-twitter-bubbles .content { position: static; }
+.wk-ie7 .wk-twitter-bubbles time { zoom: 1; }
+
+
+/* Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-slideshow ul.slides li { zoom: 1; }
+
+.wk-ie .wk-slideshow .caption { filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#77000000', endColorstr='#77000000'); }
+
+
+/* Slideshow: Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-slideshow-default .nav li,
+.wk-ie7 .wk-slideshow-default .nav span { display: inline; }
+.wk-ie7 .wk-slideshow-default .nav span { zoom: 1; }
+
+
+/* Slideshow: List Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-slideshow-list .nav li { zoom: 1; }
+
+
+/* Gallery: Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-gallery-default ul.slides li { zoom: 1; }
+
+.wk-ie .wk-gallery-default .caption { filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#77000000', endColorstr='#77000000'); }
+
+.wk-ie7 .wk-gallery-default .nav li,
+.wk-ie7 .wk-gallery-default .nav span { display: inline; }
+.wk-ie7 .wk-gallery-default .nav span { zoom: 1; }
+
+
+/* Gallery: Slider Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-gallery-slider ul li { position: relative; }
+
+
+/* Accordion: Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-accordion-default { zoom: 1; }
+
+
+/* Slideset: Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-slideset {
+	position: relative;
+	overflow: hidden;
+}
+
+.wk-ie7 .wk-slideset .set > li { display: inline; }
+
+
+/* Slideset: Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.wk-ie7 .wk-slideset-default .nav li,
+.wk-ie7 .wk-slideset-default .nav span { display: inline; }
+.wk-ie7 .wk-slideset-default .nav span { zoom: 1; }
+

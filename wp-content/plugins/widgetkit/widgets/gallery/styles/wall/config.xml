@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="wall" label="Wall">
+	<settings>
+		<setting name="order" label="Order" type="list" default="default">
+            <option value="default">Default</option>
+            <option value="random">Random</option>
+        </setting>
+		<setting name="effect" label="Effect" type="list" default="">
+			<option value="">None</option>
+			<option value="spotlight">Spotlight</option>
+			<option value="zoom">Zoom</option>
+			<option value="polaroid">Polaroid</option>
+		</setting>
+		<setting name="margin" label="Margin" type="list" default="">
+			<option value="">No</option>
+			<option value="margin">Yes</option>
+		</setting>
+		<setting name="corners" label="Corners" type="list" default="">
+			<option value="">Square</option>
+			<option value="round">Round</option>
+		</setting>
+		<setting name="lightbox" label="Lightbox" type="radio" default="1">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</setting>
+		<setting name="lightbox_caption" label="Lightbox Caption" type="radio" default="1">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</setting>
+		<setting name="spotlight_effect" label="Spotlight Effect" type="list" default="">
+			<option value="">Default</option>
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+			<option value="fade">Fade</option>
+		</setting>
+	</settings>
+</style>

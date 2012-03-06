@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2011-07-21 16:42+0100\n"
+"Last-Translator: YOOtheme <info@yootheme.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Maps widget
+msgid "FROM_ADDRESS"
+msgstr "From address: "
+
+msgid "GET_DIRECTIONS"
+msgstr "Get directions"
+
+msgid "FILL_IN_ADDRESS"
+msgstr "Please fill in your address."
+
+msgid "ADDRESS_NOT_FOUND"
+msgstr "Sorry, address not found!"
+
+msgid "LOCATION_NOT_FOUND"
+msgstr ", not found!"
+
+# Twitter widget
+msgid "BY_X"
+msgstr "by %s"
+
+msgid "LESS_THAN_A_MINUTE_AGO"
+msgstr "less than a minute ago"
+
+msgid "ABOUT_A_MINUTE_AGO"
+msgstr "about a minute ago"
+
+msgid "ABOUT_AN_HOUR_AGO"
+msgstr "about an hour ago"
+
+msgid "X_MINUTES_AGO"
+msgstr "%s minutes ago"
+
+msgid "X_HOURS_AGO"
+msgstr "about %s hours ago"
+
+msgid "ONE_DAY_AGO"
+msgstr "1 day ago"
+
+msgid "X_DAYS_AGO"
+msgstr "%s days ago"
+

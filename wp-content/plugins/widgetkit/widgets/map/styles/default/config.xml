@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="default" label="Default">
+	<fields>
+		<field name="title" label="Title" type="title" description="" />
+		<field name="location" label="Location" type="location" description="" />
+		<field name="icon" label="Marker" type="list" description="Select a marker icon" default="1">
+			<option value="red-dot">Red Dot</option>
+			<option value="orange-dot">Orange Dot</option>
+			<option value="yellow-dot">Yellow Dot</option>
+			<option value="pink-dot">Pink Dot</option>
+			<option value="blue-dot">Blue Dot</option>
+			<option value="ltblue-dot">Lightblue Dot</option>
+			<option value="green-dot">Green Dot</option>
+			<option value="purple-dot">Purple Dot</option>
+			<option value="red-pushpin">Red Pushpin</option>
+			<option value="ylw-pushpin">Yellow Pushpin</option>
+			<option value="pink-pushpin">Pink Pushpin</option>
+			<option value="blue-pushpin">Blue Pushpin</option>
+			<option value="ltblu-pushpin">Lightblue Pushpin</option>
+			<option value="grn-pushpin">Green Pushpin</option>
+			<option value="purple-pushpin">Purple Pushpin</option>
+		</field>
+		<field name="popup" label="Popup" type="html" description="" />
+	</fields>
+</style>
